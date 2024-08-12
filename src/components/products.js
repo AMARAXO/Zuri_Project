@@ -14,7 +14,7 @@ const ProductGrid = () => {
     { id: 7, name: 'Product 7', size: 'M', color: 'lightgray', image: 'shoe7.jpg', units: 6 },
     { id: 8, name: 'Product 8', size: 'M', color: 'lightgray', image: 'shoe8.jpg', units: 3 },
     { id: 9, name: 'Product 9', size: 'M', color: 'lightgray', image: 'slippers.jpg', units: 9 },
-    { id: 10, name: 'Product 10', size: 'M', color: 'lightgray', image: 'loafers.jpg', units: 11 },
+    { id: 10, name: 'Product 10', size: 'M', color: 'lightgray', image: 'Loafers.jpg', units: 11 },
     { id: 11, name: 'Product 11', size: 'M', color: 'lightgray', image: 'runningShoes.jpg', units: 10 },
     { id: 12, name: 'Product 12', size: 'M', color: 'lightgray', image: 'heels.jpg', units: 2 },
   ];
