@@ -54,7 +54,7 @@ const ProceedToCheckout = () => {
 
       <div className="order-tracking">
         <h3>Order Tracking</h3>
-        <p>You'll receive a confirmation email with your tracking details after the payment.</p>
+        <p>You&#39;ll receive a confirmation email with your tracking details after the payment.</p>
       </div>
 
       <div className="sign-up-option">
