@@ -12,12 +12,14 @@ const Navbar = () => {
     return (
       <nav className="navbar">
         <div className="navbar-logo">
-          <div class="navbar-logo-container">
-           <img src='/images/starlogo.jpg' alt='logo' height={'50px'} width={'50px'} class="img"></img>
+          <div className="navbar-logo-container">
+           <img src='/images/starlogo.jpg' alt='logo' height={'50px'} width={'50px'} className="img"></img>
            <a href="/">BarbStarShow</a>
           </div>
         </div>
-        <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
+        <div className={`navbar-menu ${isOpen ? 'open' : ''}`} style={{
+          zIndex: '999px'
+        }}>
         <a href="/">Home</a>
           <a href="/cart">Cart</a>
           <a href="/auth/signin">Sign In</a>
